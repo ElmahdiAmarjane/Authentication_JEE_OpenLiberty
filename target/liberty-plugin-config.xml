@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<liberty-plugin-config>
+    <installDirectory>C:\Users\lenovo\Desktop\LP S5 S6\S6\JEE\projects\jeeprojects\web01\target\liberty\wlp</installDirectory>
+    <serverDirectory>C:\Users\lenovo\Desktop\LP S5 S6\S6\JEE\projects\jeeprojects\web01\target\liberty\wlp\usr\servers\web01Server</serverDirectory>
+    <userDirectory>C:\Users\lenovo\Desktop\LP S5 S6\S6\JEE\projects\jeeprojects\web01\target\liberty\wlp\usr</userDirectory>
+    <serverOutputDirectory>C:\Users\lenovo\Desktop\LP S5 S6\S6\JEE\projects\jeeprojects\web01\target\liberty\wlp\usr\servers\web01Server</serverOutputDirectory>
+    <serverName>web01Server</serverName>
+    <configDirectory>C:\Users\lenovo\Desktop\LP S5 S6\S6\JEE\projects\jeeprojects\web01\src\main\liberty\config</configDirectory>
+    <configFile>C:\Users\lenovo\Desktop\LP S5 S6\S6\JEE\projects\jeeprojects\web01\src\main\liberty\config\server.xml</configFile>
+    <appsDirectory>apps</appsDirectory>
+    <looseApplication>true</looseApplication>
+    <stripVersion>false</stripVersion>
+    <installAppPackages>project</installAppPackages>
+    <applicationFilename>web01.war.xml</applicationFilename>
+    <assemblyArtifact>
+        <groupId>io.openliberty</groupId>
+        <artifactId>openliberty-runtime</artifactId>
+        <version>24.0.0.1</version>
+        <type>zip</type>
+    </assemblyArtifact>
+    <assemblyArchive>C:\Users\lenovo\.m2\repository\io\openliberty\openliberty-runtime\24.0.0.1\openliberty-runtime-24.0.0.1.zip</assemblyArchive>
+    <assemblyInstallDirectory>C:\Users\lenovo\Desktop\LP S5 S6\S6\JEE\projects\jeeprojects\web01\target\liberty</assemblyInstallDirectory>
+    <refresh>false</refresh>
+    <installAppsConfigDropins>C:\Users\lenovo\Desktop\LP S5 S6\S6\JEE\projects\jeeprojects\web01\target\liberty\wlp\usr\servers\web01Server\configDropins\defaults\install_apps_configuration_1491924271.xml</installAppsConfigDropins>
+    <projectType>war</projectType>
+    <projectCompileDependency>com.mysql:mysql-connector-j:8.0.33</projectCompileDependency>
+    <projectCompileDependency>com.google.protobuf:protobuf-java:3.21.9</projectCompileDependency>
+    <warSourceDirectory>C:\Users\lenovo\Desktop\LP S5 S6\S6\JEE\projects\jeeprojects\web01\src\main\webapp</warSourceDirectory>
+</liberty-plugin-config>

@@ -1,0 +1,15 @@
+
+ Index  Count  Time of first Occurrence    Time of last Occurrence     Exception SourceId ProbeId
+------+------+---------------------------+---------------------------+---------------------------
+     0     17 22/02/2024 21:38:09:917 WEST 22/02/2024 21:39:34:363 WEST com.ibm.wsspi.adaptable.module.UnableToAdaptException com.ibm.ws.webcontainer.osgi.WebContainer createModuleMetaData
+                                                                            - C:\Users\lenovo\Desktop\LP S5 S6\S6\JEE\projects\jeeprojects\web01\target\liberty\wlp\usr\servers\web01Server\logs\ffdc\ffdc_24.02.22_21.38.09.0.log
+     1     17 22/02/2024 21:38:10:132 WEST 22/02/2024 21:39:34:363 WEST com.ibm.ws.container.service.metadata.MetaDataException com.ibm.ws.app.manager.module.internal.SimpleDeployedAppInfoBase 537
+                                                                            - C:\Users\lenovo\Desktop\LP S5 S6\S6\JEE\projects\jeeprojects\web01\target\liberty\wlp\usr\servers\web01Server\logs\ffdc\ffdc_24.02.22_21.38.10.0.log
+     2      8 22/02/2024 23:52:39:587 WEST 23/02/2024 03:22:27:162 WEST com.ibm.ws.jsp.JspCoreException com.ibm.ws.jsp.webcontainerext.JSPExtensionServletWrapper.translateJsp 259
+                                                                            - C:\Users\lenovo\Desktop\LP S5 S6\S6\JEE\projects\jeeprojects\web01\target\liberty\wlp\usr\servers\web01Server\logs\ffdc\ffdc_24.02.22_23.52.39.0.log
+                                                                            - C:\Users\lenovo\Desktop\LP S5 S6\S6\JEE\projects\jeeprojects\web01\target\liberty\wlp\usr\servers\web01Server\logs\ffdc\ffdc_24.02.23_02.48.40.0.log
+                                                                            - C:\Users\lenovo\Desktop\LP S5 S6\S6\JEE\projects\jeeprojects\web01\target\liberty\wlp\usr\servers\web01Server\logs\ffdc\ffdc_24.02.23_03.21.15.0.log
+                                                                            - C:\Users\lenovo\Desktop\LP S5 S6\S6\JEE\projects\jeeprojects\web01\target\liberty\wlp\usr\servers\web01Server\logs\ffdc\ffdc_24.02.23_03.20.55.0.log
+     3      1 23/02/2024 03:27:20:605 WEST 23/02/2024 03:27:20:605 WEST java.lang.NullPointerException com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters 1105
+                                                                            - C:\Users\lenovo\Desktop\LP S5 S6\S6\JEE\projects\jeeprojects\web01\target\liberty\wlp\usr\servers\web01Server\logs\ffdc\ffdc_24.02.23_03.27.20.0.log
+------+------+---------------------------+---------------------------+---------------------------

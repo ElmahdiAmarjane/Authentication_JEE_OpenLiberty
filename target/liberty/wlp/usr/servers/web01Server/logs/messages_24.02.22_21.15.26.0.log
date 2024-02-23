@@ -1,0 +1,90 @@
+********************************************************************************
+product = Open Liberty 24.0.0.1 (wlp-1.0.85.cl240120240115-2042)
+wlp.install.dir = C:/Users/lenovo/Desktop/LP S5 S6/S6/JEE/projects/jeeprojects/web01/target/liberty/wlp/
+java.home = C:\Program Files\Java\jdk-21
+java.version = 21.0.1
+java.runtime = Java(TM) SE Runtime Environment (21.0.1+12-LTS-29)
+os = Windows 11 (10.0; amd64) (fr_FR)
+process = 5888@DESKTOP-N42OV22
+Classpath = C:\Users\lenovo\Desktop\LP S5 S6\S6\JEE\projects\jeeprojects\web01\target\liberty\wlp\bin\tools\ws-server.jar
+Java Library path = C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\oraclexe\app\oracle\product\11.2.0\server\bin;;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Java\jdk-21\bin;C:\Users\lenovo\Downloads\apache-maven-3.9.6-bin\apache-maven-3.9.6\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\lenovo\AppData\Local\Microsoft\WindowsApps;;C:\Users\lenovo\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\lenovo\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA 2023.2.3\bin;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.3\bin;;.
+********************************************************************************
+[22/02/2024 20:05:15:434 WEST] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0001I: Le serveur web01Server a été lancé.
+[22/02/2024 20:05:16:486 WEST] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           I CWWKE0002I: Noyau démarré après 1,421 secondes
+[22/02/2024 20:05:16:698 WEST] 00000036 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0007I: Mise à jour de fonction démarrée.
+[22/02/2024 20:05:17:126 WEST] 0000002c com.ibm.ws.app.manager.internal.monitor.DropinMonitor        A CWWKZ0058I: Recherche d'applications dans dropins.
+[22/02/2024 20:05:17:574 WEST] 00000041 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Démarrage de l'application web01.
+[22/02/2024 20:05:17:576 WEST] 00000041 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: L'application web01 utilise la définition d'application souple à l'emplacement C:\Users\lenovo\Desktop\LP S5 S6\S6\JEE\projects\jeeprojects\web01\target\liberty\wlp\usr\servers\web01Server\apps\web01.war.xml.
+[22/02/2024 20:05:18:579 WEST] 00000041 com.ibm.ws.session.WASSessionCore                            I SESN8501I: Le gestionnaire de sessions n'a pas trouvé d'emplacement de stockage de persistance. Les objets HttpSession seront enregistrés dans la mémoire du serveur d'applications local.
+[22/02/2024 20:05:18:618 WEST] 00000041 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Chargement du module Web : Hello Servlet.
+[22/02/2024 20:05:18:623 WEST] 00000041 com.ibm.ws.webcontainer                                      I SRVE0250I: Module Web Hello Servlet lié à default_host.
+[22/02/2024 20:05:18:625 WEST] 00000041 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Application Web disponible, (default_host) : http://localhost:9080/web01/
+[22/02/2024 20:05:18:717 WEST] 0000003a com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Un fichier de configuration pour un plug-in de serveur Web a été automatiquement généré pour ce serveur à C:\Users\lenovo\Desktop\LP S5 S6\S6\JEE\projects\jeeprojects\web01\target\liberty\wlp\usr\servers\web01Server\logs\state\plugin-cfg.xml.
+[22/02/2024 20:05:18:909 WEST] 00000038 com.ibm.ws.session.WASSessionCore                            I SESN0176I: Un nouveau contexte de session sera créé pour la clé d'application default_host/web01
+[22/02/2024 20:05:18:922 WEST] 00000038 com.ibm.ws.util                                              I SESN0172I: Le gestionnaire de session utilise l'implémentation Java par défaut de SecureRandom pour la génération des ID de session.
+[22/02/2024 20:05:19:044 WEST] 00000038 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0001I: Application web01 démarrée en 1,470 secondes.
+[22/02/2024 20:05:19:074 WEST] 00000036 com.ibm.ws.tcpchannel.internal.TCPPort                       I CWWKO0219I: Le canal TCP defaultHttpEndpoint a été démarré et écoute à présent les demandes parvenant à l'hôte 127.0.0.1  (IPv4: 127.0.0.1), sur le port 9080.
+[22/02/2024 20:05:19:090 WEST] 00000036 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0012I: Le serveur a installé les fonctions suivantes : [el-3.0, jsp-2.3, servlet-3.1].
+[22/02/2024 20:05:19:091 WEST] 00000036 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0008I: Mise à jour de fonction terminée en 2,600 secondes.
+[22/02/2024 20:05:19:092 WEST] 00000036 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0011I: Le serveur web01Server est prêt pour une planète plus intelligente. Il a démarré en 4,028 secondes.
+[22/02/2024 20:07:22:913 WEST] 0000004b com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Application Web supprimée (default_host) : http://localhost:9080/web01/
+[22/02/2024 20:07:22:929 WEST] 0000004b com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: L'application web01 s'est arrêtée correctement.
+[22/02/2024 20:07:22:940 WEST] 0000004b com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Démarrage de l'application web01.
+[22/02/2024 20:07:22:940 WEST] 0000004b bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: L'application web01 utilise la définition d'application souple à l'emplacement C:\Users\lenovo\Desktop\LP S5 S6\S6\JEE\projects\jeeprojects\web01\target\liberty\wlp\usr\servers\web01Server\apps\web01.war.xml.
+[22/02/2024 20:07:23:178 WEST] 0000004b com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Chargement du module Web : Hello Servlet.
+[22/02/2024 20:07:23:179 WEST] 0000004b com.ibm.ws.webcontainer                                      I SRVE0250I: Module Web Hello Servlet lié à default_host.
+[22/02/2024 20:07:23:179 WEST] 0000004b com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Application Web disponible, (default_host) : http://localhost:9080/web01/
+[22/02/2024 20:07:23:261 WEST] 00000041 com.ibm.ws.session.WASSessionCore                            I SESN0176I: Un nouveau contexte de session sera créé pour la clé d'application default_host/web01
+[22/02/2024 20:07:23:261 WEST] 00000041 com.ibm.ws.util                                              I SESN0172I: Le gestionnaire de session utilise l'implémentation Java par défaut de SecureRandom pour la génération des ID de session.
+[22/02/2024 20:07:23:265 WEST] 0000004c com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Un fichier de configuration pour un plug-in de serveur Web a été automatiquement généré pour ce serveur à C:\Users\lenovo\Desktop\LP S5 S6\S6\JEE\projects\jeeprojects\web01\target\liberty\wlp\usr\servers\web01Server\logs\state\plugin-cfg.xml.
+[22/02/2024 20:07:23:302 WEST] 0000003e com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Un fichier de configuration pour un plug-in de serveur Web a été automatiquement généré pour ce serveur à C:\Users\lenovo\Desktop\LP S5 S6\S6\JEE\projects\jeeprojects\web01\target\liberty\wlp\usr\servers\web01Server\logs\state\plugin-cfg.xml.
+[22/02/2024 20:07:23:336 WEST] 00000041 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: Application web01 mise à jour en 0,395 secondes.
+[22/02/2024 20:07:41:137 WEST] 00000036 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Application Web supprimée (default_host) : http://localhost:9080/web01/
+[22/02/2024 20:07:41:141 WEST] 00000036 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: L'application web01 s'est arrêtée correctement.
+[22/02/2024 20:07:41:149 WEST] 00000036 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Démarrage de l'application web01.
+[22/02/2024 20:07:41:149 WEST] 00000036 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: L'application web01 utilise la définition d'application souple à l'emplacement C:\Users\lenovo\Desktop\LP S5 S6\S6\JEE\projects\jeeprojects\web01\target\liberty\wlp\usr\servers\web01Server\apps\web01.war.xml.
+[22/02/2024 20:07:41:171 WEST] 0000004c com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Un fichier de configuration pour un plug-in de serveur Web a été automatiquement généré pour ce serveur à C:\Users\lenovo\Desktop\LP S5 S6\S6\JEE\projects\jeeprojects\web01\target\liberty\wlp\usr\servers\web01Server\logs\state\plugin-cfg.xml.
+[22/02/2024 20:07:41:346 WEST] 00000036 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Chargement du module Web : Hello Servlet.
+[22/02/2024 20:07:41:347 WEST] 00000036 com.ibm.ws.webcontainer                                      I SRVE0250I: Module Web Hello Servlet lié à default_host.
+[22/02/2024 20:07:41:347 WEST] 00000036 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Application Web disponible, (default_host) : http://localhost:9080/web01/
+[22/02/2024 20:07:41:377 WEST] 00000042 com.ibm.ws.session.WASSessionCore                            I SESN0176I: Un nouveau contexte de session sera créé pour la clé d'application default_host/web01
+[22/02/2024 20:07:41:377 WEST] 00000042 com.ibm.ws.util                                              I SESN0172I: Le gestionnaire de session utilise l'implémentation Java par défaut de SecureRandom pour la génération des ID de session.
+[22/02/2024 20:07:41:401 WEST] 00000036 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Un fichier de configuration pour un plug-in de serveur Web a été automatiquement généré pour ce serveur à C:\Users\lenovo\Desktop\LP S5 S6\S6\JEE\projects\jeeprojects\web01\target\liberty\wlp\usr\servers\web01Server\logs\state\plugin-cfg.xml.
+[22/02/2024 20:07:41:409 WEST] 00000042 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: Application web01 mise à jour en 0,260 secondes.
+[22/02/2024 20:07:45:694 WEST] 0000003a com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Application Web supprimée (default_host) : http://localhost:9080/web01/
+[22/02/2024 20:07:45:698 WEST] 0000003a com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: L'application web01 s'est arrêtée correctement.
+[22/02/2024 20:07:45:706 WEST] 0000003a com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Démarrage de l'application web01.
+[22/02/2024 20:07:45:707 WEST] 0000003a bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: L'application web01 utilise la définition d'application souple à l'emplacement C:\Users\lenovo\Desktop\LP S5 S6\S6\JEE\projects\jeeprojects\web01\target\liberty\wlp\usr\servers\web01Server\apps\web01.war.xml.
+[22/02/2024 20:07:45:728 WEST] 00000046 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Un fichier de configuration pour un plug-in de serveur Web a été automatiquement généré pour ce serveur à C:\Users\lenovo\Desktop\LP S5 S6\S6\JEE\projects\jeeprojects\web01\target\liberty\wlp\usr\servers\web01Server\logs\state\plugin-cfg.xml.
+[22/02/2024 20:07:45:945 WEST] 0000003a com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Chargement du module Web : Hello Servlet.
+[22/02/2024 20:07:45:945 WEST] 0000003a com.ibm.ws.webcontainer                                      I SRVE0250I: Module Web Hello Servlet lié à default_host.
+[22/02/2024 20:07:45:945 WEST] 0000003a com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Application Web disponible, (default_host) : http://localhost:9080/web01/
+[22/02/2024 20:07:45:986 WEST] 0000003a com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Un fichier de configuration pour un plug-in de serveur Web a été automatiquement généré pour ce serveur à C:\Users\lenovo\Desktop\LP S5 S6\S6\JEE\projects\jeeprojects\web01\target\liberty\wlp\usr\servers\web01Server\logs\state\plugin-cfg.xml.
+[22/02/2024 20:07:46:033 WEST] 00000042 com.ibm.ws.session.WASSessionCore                            I SESN0176I: Un nouveau contexte de session sera créé pour la clé d'application default_host/web01
+[22/02/2024 20:07:46:033 WEST] 00000042 com.ibm.ws.util                                              I SESN0172I: Le gestionnaire de session utilise l'implémentation Java par défaut de SecureRandom pour la génération des ID de session.
+[22/02/2024 20:07:46:082 WEST] 00000042 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: Application web01 mise à jour en 0,375 secondes.
+[22/02/2024 20:09:04:611 WEST] 00000036 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [web01] [/web01] [estm.dsic.jee.servlets.loginServlet]: L'initialisation a abouti.
+[22/02/2024 20:09:04:617 WEST] 00000036 SystemOut                                                    O username :elmaama || password :hhhh
+[22/02/2024 20:09:05:322 WEST] 00000036 SystemOut                                                    O 
+New connection to database established: com.mysql.cj.jdbc.ConnectionImpl@6cd0870d
+[22/02/2024 20:09:05:409 WEST] 00000036 SystemOut                                                    O user : null
+[22/02/2024 20:09:06:177 WEST] 00000041 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [web01] [/web01] [/views/login.jsp]: L'initialisation a abouti.
+[22/02/2024 20:09:12:382 WEST] 00000037 SystemOut                                                    O username :a || password :GG
+[22/02/2024 20:09:12:384 WEST] 00000037 SystemOut                                                    O user : null
+[22/02/2024 20:11:13:474 WEST] 00000061 SystemOut                                                    O username :user || password :pass
+[22/02/2024 20:11:13:478 WEST] 00000061 SystemOut                                                    O user : estm.dsic.jee.models.User@2dfe8c11
+[22/02/2024 20:11:13:479 WEST] 00000061 SystemOut                                                    O user
+[22/02/2024 20:11:13:554 WEST] 00000036 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [web01] [/web01] [/views/home.jsp]: L'initialisation a abouti.
+[22/02/2024 20:50:38:422 WEST] 000001bd com.ibm.ws.webcontainer.extension                            W SRVE0190E: Fichier non trouvé : /page/about
+[22/02/2024 20:50:43:341 WEST] 000001b3 com.ibm.ws.webcontainer.extension                            W SRVE0190E: Fichier non trouvé : /page/login
+[22/02/2024 20:50:46:561 WEST] 000001b8 com.ibm.ws.webcontainer.webapp                               W SRVE0190E: Fichier non trouvé : /page/login.jsp
+[22/02/2024 21:04:59:564 WEST] 00000026 com.ibm.ws.kernel.launch.internal.ServerCommandListener      A CWWKE0055I: Arrêt du serveur demandé le jeudi 22 février 2024 à 21:04. Le serveur web01Server est en cours d'arrêt.
+[22/02/2024 21:04:59:568 WEST] 00000249 com.ibm.ws.runtime.update.internal.RuntimeUpdateManagerImpl  A CWWKE1100I: Attente jusqu'à 30 secondes de la mise au repos du serveur.
+[22/02/2024 21:04:59:577 WEST] 00000169 com.ibm.ws.tcpchannel.internal.TCPChannel                    I CWWKO0220I: Le canal TCP defaultHttpEndpoint a arrêté l'écoute des demandes parvenant à l'hôte 127.0.0.1  (IPv4: 127.0.0.1), sur le port 9080.
+[22/02/2024 21:04:59:578 WEST] 00000169 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Application Web supprimée (default_host) : http://localhost:9080/web01/
+[22/02/2024 21:04:59:581 WEST] 00000249 com.ibm.ws.runtime.update.internal.RuntimeUpdateManagerImpl  I CWWKE1101I: Mise au repos du serveur terminée.
+[22/02/2024 21:04:59:603 WEST] 00000245 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [web01] [/web01] [estm.dsic.jee.servlets.loginServlet] : La suppression a abouti.
+[22/02/2024 21:04:59:603 WEST] 00000245 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [web01] [/web01] [/views/home.jsp] : La suppression a abouti.
+[22/02/2024 21:04:59:603 WEST] 00000245 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [web01] [/web01] [/views/login.jsp] : La suppression a abouti.
+[22/02/2024 21:04:59:603 WEST] 00000245 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: L'application web01 s'est arrêtée correctement.
+[22/02/2024 21:04:59:914 WEST] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0036I: Le serveur web01Server a été arrêté après 59 minutes, 44,855 secondes.
