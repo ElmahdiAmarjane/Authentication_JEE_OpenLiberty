@@ -1,2 +1,15 @@
-target/
-.vscode/
+# Ignore compiled bytecode
+*.class
+
+# Ignore build output
+/target/
+
+# Ignore IDE files
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Ignore logs
+*.log
+log/
